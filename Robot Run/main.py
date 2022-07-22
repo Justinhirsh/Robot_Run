@@ -28,7 +28,7 @@ def play(music):
     pygame.mixer.music.play(-1)
     pygame.mixer.music.set_volume(1)
 
-background_music = "resources/background music.wav"
+background_music = "resources/background music.ogg"
 win_music = "resources/congradulations.ogg"
 boss_music = "resources/boss music.ogg"
 play(background_music)
